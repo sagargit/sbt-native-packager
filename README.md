@@ -7,7 +7,7 @@ $ sbt docker:publishLocal
 
 $ docker images // shows the all images
 
-$ docker run -d -p 8080:8080 sbt-native-packager-demo:1.0 // runs as a daemon and cxreates a container
+$ docker run -d -p 8080:8080 sbt-native-packager-demo:1.0 // runs as a daemon and creates a container, maps container port to localhost:8080
 
 $ docker ps -a // shows all the containers
 
